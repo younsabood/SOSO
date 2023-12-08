@@ -25,7 +25,7 @@ $("document").ready(function () {
     console.log(pass.value);
     pass.onfocus = function () {};
 
-    if (pass.value == "mhdf400@1234") {
+    if (pass.value == "mm") {
       btn.style.visibility = "visible";
       $(this).fadeOut("slow");
       $("#pas").fadeOut("slow");
